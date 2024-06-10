@@ -50,7 +50,7 @@ button {
 #increment-btn:hover {background-color: #03045e}
 
 #increment-btn:active {
-    background-color: darkred;
+    background-color: #03045e;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
@@ -69,7 +69,7 @@ button {
 }
 
 #save-btn:active{
-    background-color: darkgreen;
+    background-color: #03045e;
     box-shadow : 0 5px #666;
     transform : translateY(4px)
 }
@@ -88,7 +88,7 @@ button {
 }
 
 #clear-btn:active{
-    background-color: rgb(108, 152, 21);
+    background-color: #03045e;
     box-shadow : 0 5px #666;
     transform : translateY(4px)
 }
