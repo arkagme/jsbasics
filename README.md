@@ -1,0 +1,1 @@
+Projects and code from Scrimba's JS course
