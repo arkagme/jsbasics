@@ -24,4 +24,5 @@ function cleartext(){
     console.log("Arka3")
     save_text.textContent = "Previous Entries : "
     console_count.textContent = 0 
+    count = 0;
 }
