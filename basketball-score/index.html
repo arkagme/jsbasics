@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>BasketBall ScoreCard</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="timer-div">
+            <button onclick="countdown()"> Start </button>
+            <button onclick="reset_timer()"> Reset </button>
+            <button onclick = "pause_timer()">Pause / Stop</button>
+            <p id="countdown">00 : 00</p>
+        </div>
+        <div><p id="Times-Up"></p</div>
+        <div class="container">
+            <div id="container-child-1">
+                <h1>HOME</h1>
+                <h2 id="scoreb">0</h2>
+                <button onclick = "increment1()">+1</button>
+                <button onclick = "increment2()">+2</button>
+                <button onclick = "increment3()">+3</button>
+            </div>
+            <div id="container-child-2">
+                <h1>GUEST</h1>
+                <h2 id="scoreb-guest">0</h2>
+                <button onclick = "increment1_guest()">+1</button>
+                <button onclick = "increment2_guest()">+2</button>
+                <button onclick = "increment3_guest()">+3</button>
+            </div>
+            <div id="prev-entry">
+                <h1>PREVIOUS ENTRIES :</h1>
+                <button onclick="clr_text()">CLEAR-TEXT</button>
+                <div id="score-store">
+                    <p id="reset-text"></p>
+                </div>
+            </div>
+        </div>
+        <div id="reset-div">
+             <button onclick ="reset()">Reset</button>  
+             <button onclick ="savescore()"> Save</button>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+@font-face { font-family: Led-Counter-7 ; src: url(/basketball-score/fonts/led_counter-7.ttf); }
+body{
+    background : #1b244a;
+}
+.container{
+    height : 69vh;
+    display : flex;
+    flex : 1 1 auto;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#container-child-1{
+    margin-right: 0px;
+}
+
+h1{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color : #ffffff;
+    font-size : 3.2rem;
+}
+
+h2{
+    text-align: center;
+    font-weight : 900;
+    font-family: Led-Counter-7 ;
+    font-size : 3.2rem;
+    border : 10px solid black;
+    border-radius : 20px;
+    box-shadow : 0px 10px rgb(45, 45, 45)
+}
+
+#scoreb{
+    background: black;
+    color : red ;
+}
+
+#scoreb-guest{
+    background: black;
+    color : red ;
+}
+
+button{
+    color : #9aabd8;
+    font-size : 1.5rem;
+    font-weight : 900;
+    text-align: center;
+    font-family : Led-Counter-7 ;
+    padding : 20px 20px;
+    background : #1b244a;
+    border : 5px solid #9aabd8;
+    border-radius : 8px;
+    margin : 0px 10px 0px 10px;
+    cursor : pointer ;
+    box-shadow: 0px 10px #6c88d4 ;
+}
+
+button:hover {
+    background : #0d1329 ;
+}
+button:active {
+    box-shadow: 0px 5px #5e7dd2;
+    transform : translateY(7px)
+
+}
+
+#reset-div{
+    text-align: center;
+}
+
+#timer-div{
+    display : flex;
+    flex : 1 1 auto;
+    justify-content: space-around;
+    text-align : center;
+    height : 12vh;
+}
+
+#countdown{
+    height : 3.5vh;
+    padding : 5px 10px;
+    color : red;
+    background: black;
+    text-align: center;
+    font-weight : 900;
+    font-family: Led-Counter-7 ;
+    font-size : 2rem;
+    border : 10px solid black;
+    border-radius : 20px;
+    box-shadow : 0px 10px rgb(45, 45, 45)
+}
+
+#times-up{
+    text-align : center;
+    font-family: Led-Counter-7 ;
+    color : red;
+    font-size : 2rem;
+    font-weight : 900;
+
+}
+
+#score-store{
+    font-family: Led-Counter-7 ;
+    text-align: center;
+    color : #ffffff;
+    font-size : 2rem;
+
+}
+#prev-entry{
+    text-align: center;
+}
+
