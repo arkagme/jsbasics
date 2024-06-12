@@ -54,7 +54,7 @@ function reset(){
 let countdowntime = 719
 let x ;
 function countdown(){
-    x =  setInterval(count_time, 1)
+    x =  setInterval(count_time, 1000)
 }
 function count_time(){
     let minutes = Math.floor(countdowntime/60)
