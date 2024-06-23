@@ -40,16 +40,3 @@ li{
 li a{
     color : #5f9341;
 }
-
-head{
-    background : #5f9341;
-    color : white ;
-    padding : 10px 15px 10px 15px;
-    margin-top : 55px 70px;
-    display : flex;
-    flex-direction : column;
-    flex : 1 1 auto;
-    border-radius : 7px;
-    border : 5px solid #5f9341;
-    box-shadow : 5px 5px #ffffff;
-}
