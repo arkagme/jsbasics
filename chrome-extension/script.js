@@ -12,6 +12,7 @@ if(lead_from_local_storage){
     render(myleads)
 }
 
+
 tabbtn.addEventListener("click" , function(){
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
         myleads.push(tabs[0].url)
