@@ -1,0 +1,108 @@
+#header{
+    background: #6943FF;
+    color : #FFFFFF;
+    font-family: "Inter" , sans-serif;
+    text-align: center;
+    margin : 0;
+}
+h1{
+    margin : 0; 
+    padding : 20px;
+}
+
+#input-fld{
+    background :  #6943FF;
+    border : 2px solid #b295ff;
+    border-radius : 5px;
+    font-family: "Inter" , sans-serif;
+    font-size : 58px;
+    font-weight : 800;
+    text-align : center;
+    color : #FFFFFF;
+    padding : 20px 10px 20px 10px;
+    width : 100px;
+
+}
+#btn{
+    background : white;
+    border : none;
+    border-radius: 5px;
+    padding : 10px 20px;
+    font-family: "Inter" , sans-serif;
+    color : #3d3d3d;
+    cursor : pointer;
+    font-weight : 500;
+    font-size : 16px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+
+}
+#dark-mode-btn{
+    background : white;
+    border : none;
+    border-radius: 5px;
+    padding : 10px 20px;
+    font-family: "Inter" , sans-serif;
+    color : #3d3d3d;
+    cursor : pointer;
+    font-weight : 500;
+    font-size : 16px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+
+}
+
+#footer{
+    text-align: center;
+    background : #f4f4f4;
+    padding : 40px 80px;
+
+}
+#footer.dark-mode{
+    text-align: center;
+    background : #1f2937;
+    padding : 40px 80px;
+
+}
+
+#inside-content{
+    background : #ffffff;
+    padding : 10px;
+
+}
+
+#inside-content.dark-mode{
+    background : #273549;
+    padding : 10px;
+
+}
+
+h3{
+    color : #5a537b;
+    font-family: "Inter" , sans-serif;
+    font-weight : 600 ; 
+    font-size : 20px;
+
+}
+h3.dark-mode{
+    color : #ccc1ff;
+    font-family: "Inter" , sans-serif;
+    font-weight : 600 ; 
+    font-size : 20px;
+
+}
+
+h4{
+    color : #353535;
+    font-family: "Inter" , sans-serif;
+    font-weight : 400 ; 
+    font-size : 16px;
+
+}
+h4.dark-mode{
+    color : #ffffff;
+    font-family: "Inter" , sans-serif;
+    font-weight : 400 ; 
+    font-size : 16px;
+
+}
