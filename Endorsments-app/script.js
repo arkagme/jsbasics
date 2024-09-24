@@ -16,10 +16,6 @@ const fromValue = document.getElementById("from-input")
 const toValue = document.getElementById("to-input")
 
 
-
-
-
-
 publishButton.addEventListener("click", function(){
     let inputFieldValue = inputField.value 
     let fromInputValue = fromValue.value
